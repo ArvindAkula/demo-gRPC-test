@@ -13,6 +13,7 @@ import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/api/todos")
+@CrossOrigin(origins = "http://localhost:3000", allowCredentials = "true")
 public class TodoRestController {
 
     private final TodoServiceGrpc.TodoServiceBlockingStub todoServiceStub;

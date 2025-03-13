@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // Base URL for API requests
-const API_URL = '/api/todos';
+const API_URL = 'http://localhost:8080/api/todos';
 
 class TodoService {
   /**
